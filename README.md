@@ -1,6 +1,6 @@
 # Експеримент 1: малі вхідні дані
 
-| Input size | Insertion sort | Merge sort | Built-in |
+|| Input size || Insertion sort || Merge sort || Built-in ||
 | 10 | 0.00093 | 0.00300 | 0.00011 |
 | 20 | 0.00344 | 0.00689 | 0.00019 |
 | 30 | 0.00818 | 0.01196 | 0.00029 |
@@ -26,4 +26,4 @@
 | 230 | 0.35929 | 0.10448 | 0.00693 |
 | 240 | 0.37357 | 0.11069 | 0.00323 |
 
-!(./small_input.png)
+!([small_input](https://github.com/kajt-kajt/goit-algo-hw-04/blob/main/small_input.png))
