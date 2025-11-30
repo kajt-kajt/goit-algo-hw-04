@@ -20,7 +20,6 @@ for n in input_sizes:
     sorted_result.append(timeit.timeit('sorted(data_sample)', number=REPEATS_PER_TEST, globals=globals()))
     insertion_result.append(timeit.timeit('insertion_sort(data_sample[:])', number=REPEATS_PER_TEST, globals=globals()))
     merge_result.append(timeit.timeit('merge_sort(data_sample)', number=REPEATS_PER_TEST, globals=globals()))
-    print(n)
    
 print("| Input size | Insertion sort | Merge sort | Built-in |")
 print("| ---- | ---- | ---- | ---- |")
