@@ -1,3 +1,7 @@
+"""
+Experiment 1 - small input sizes
+"""
+
 import timeit
 import random
 from insertion_sort import insertion_sort
@@ -5,9 +9,6 @@ from merge_sort import merge_sort
 import matplotlib.pyplot as plt
 
 REPEATS_PER_TEST = 100
-
-##################### Experiment 1 #############################
-### Random input of different sizes ###
 
 input_sizes = list(range(10,250,10))
 sorted_result = []
@@ -21,6 +22,7 @@ for n in input_sizes:
     merge_result.append(timeit.timeit('merge_sort(data_sample)', number=REPEATS_PER_TEST, globals=globals()))
    
 print("| Input size | Insertion sort | Merge sort | Built-in |")
+print("| ---- | ---- | ---- | ---- |")
 for i in range(len(input_sizes)):
     print(f"| {input_sizes[i]} | {insertion_result[i]:.5f} | {merge_result[i]:.5f} | {sorted_result[i]:.5f} |")
 
