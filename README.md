@@ -8,6 +8,20 @@
 
 ## Практика
 
+### Експеримент 1: оцінка того, наскільки швидкодія залежить від випадкової комбінації вхідних даних
+
+Для вбудованого алгоритму сортування:
+![built-in_variation](./pictures/built-in_variation.png "Experiment 1: algorithm built-in, variation")
+[Таблиця результатів у текстовому вигляді](./textfiles/built-in_variation.md)
+
+Для алгоритму сортування злиттям:
+![merge_sort_variation](./pictures/merge_sort_variation.png "Experiment 1: algorithm Merge Sort, variation")
+[Таблиця результатів у текстовому вигляді](./textfiles/merge_sort_variation.md)
+
+Для алгоритму сортування вставкою:
+![insertion_sort_variation](./pictures/insertion_sort_variation.png "Experiment 1: algorithm Insertion Sort, variation")
+[Таблиця результатів у текстовому вигляді](./textfiles/insertion_sort_variation.md)
+
 ### Експеримент 1: малі вхідні дані (task01_small_inputs.py)
 
 Для невеликих розмірів випадково згенерованих вхідних даних вже видно тенденції зростання складності кожного з алгоритмів.
