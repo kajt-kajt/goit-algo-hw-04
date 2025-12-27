@@ -15,7 +15,7 @@
 
 Для кожного алгоритму для різного розміру вхідних даних беремо по 30 випадково згенерованих масивів вхідних даних. 
 
-Файл з кодом: (./exp01_variation.py)
+Файл з кодом: [exp01_variation.py](./exp01_variation.py)
 
 #### Для вбудованого алгоритму сортування:
 ![built-in_variation](./pictures/built-in_variation.png "Experiment 1: algorithm built-in, variation")
@@ -27,7 +27,7 @@
 
 [Таблиця результатів у текстовому вигляді](./textfiles/merge_sort_variation.md)
 
-*Висновок*: швидкодія алгоритма залежить від конкретних вхідних даних, але тенденції можна помітити для всіх трьох алгоритмів.
+**Висновок**: швидкодія алгоритма залежить від конкретних вхідних даних, але тенденції можна помітити для всіх трьох алгоритмів.
 
 #### Для алгоритму сортування вставкою:
 ![insertion_sort_variation](./pictures/insertion_sort_variation.png "Experiment 1: algorithm Insertion Sort, variation")
